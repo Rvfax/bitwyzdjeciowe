@@ -48,14 +48,29 @@ a {
 }
 
 .post {
-    width: fit-content;
+    width: 50%;
     height: fit-content;
     float: left;
-    margin-left: 8.5%;
-    margin-right: 8.5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .ig {
     width: fit-content;
     height: fit-content;
+}
+
+
+@media (max-width: 768px) { /* Jeśli szerokość ekranu ≤ 768px (mobilne) */
+.instagram-media {
+    zoom: 70%;
+}
+.post {
+    width: 100%;
+    float: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 }

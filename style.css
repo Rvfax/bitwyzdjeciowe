@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('bz2.png'); /* Obraz tła */
+    background-color: #A99071;
     background-size: cover; /* Dopasowanie obrazu do rozmiaru */
     background-attachment: fixed; /* Tło pozostaje nieruchome */
     background-position: center;

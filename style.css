@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bz2.png'); /* Obraz tła */
+    background-size: cover; /* Dopasowanie obrazu do rozmiaru */
+    background-attachment: fixed; /* Tło pozostaje nieruchome */
+    background-position: center;
+    height: 100vh; /* Pełna wysokość widoku */
+    overflow: hidden; /* Ukryj przewijanie na body */
+    position: relative; /* Dodanie pozycji względnej do tła */
+    background-size: 110%;
+}
+
+.main {
+    width: 90%;
+    max-width: 1000px;
+    height: 94vh; /* Wypełnia całą wysokość przeglądarki */
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.3); /* Lekko przezroczyste tło */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; /* Włącz przewijanie, jeśli zawartość wykracza poza wysokość */
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none; /* Wyłącza podkreślenie */
+    color: inherit; /* Ustawia kolor dziedziczony z elementu nadrzędnego */
+}
+
+.link {
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+
+.post {
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    margin-left: 86px;
+    margin-right: 86px;
+}
+
+.ig {
+    width: fit-content;
+    height: fit-content;
+}

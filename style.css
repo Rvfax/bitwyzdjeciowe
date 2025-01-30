@@ -74,3 +74,8 @@ a {
     display: flex;
 }
 }
+
+
+#stopka {
+    height: fit-content;
+}

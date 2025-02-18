@@ -22,6 +22,14 @@ body {
     overflow-y: auto; /* Włącz przewijanie, jeśli zawartość wykracza poza wysokość */
 }
 
+@media (max-width: 768px) {
+    .main {
+        width: 90%; /* Zwiększona szerokość na telefonie */
+        max-width: 100%; /* Pozwala wypełnić ekran */
+        border-radius: 0px;
+    }
+}
+
 .main::-webkit-scrollbar {
     display: none;
 }
@@ -33,6 +41,10 @@ h1, h2, h3, h4 {
 a {
     text-decoration: none; /* Wyłącza podkreślenie */
     color: inherit; /* Ustawia kolor dziedziczony z elementu nadrzędnego */
+}
+
+#logo {
+    height: 15vw;
 }
 
 .link {

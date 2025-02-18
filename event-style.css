@@ -23,6 +23,19 @@
     width: 13vw;
     border-color: red;
 }
+
+@media (max-width: 768px) {
+    #events{
+        font-size: 2vw;
+    }
+
+    #event1{
+        font-size: 3.5vw;
+        height: 5vw;
+        width: 30vw;
+    }
+}
+
 #event1:hover {
     cursor: pointer;
     transform: scale(1.05); /* Delikatne powiększenie bloku */

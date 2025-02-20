@@ -12,6 +12,7 @@ body {
 }
 
 .main {
+    position: relative;
     width: 65%;
     height: 94vh; /* Wypełnia całą wysokość przeglądarki */
     margin: 0 auto;
@@ -24,6 +25,10 @@ body {
 
 #logo {
     height: 15vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
 }
 
 @media (max-width: 768px) {

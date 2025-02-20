@@ -127,3 +127,47 @@ a {
         width: 20vw;
     }
 }
+
+.shop-offer {
+    width: 307px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.offer-img{
+    width:260px;
+    margin: 22px;
+}
+
+.image-slider {
+    transition: transform 0.5s ease; /* Płynna zmiana zdjęć */
+    display: flex;  /* Układa zdjęcia obok siebie */
+    text-align: center;
+    
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}

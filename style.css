@@ -36,6 +36,7 @@ body {
         width: 90%; /* Zwiększona szerokość na telefonie */
         max-width: 100%; /* Pozwala wypełnić ekran */
         border-radius: 0px;
+        
     }
 
     #logo {
@@ -129,7 +130,7 @@ a {
 }
 
 .shop-offer {
-    width: 307px;
+    width: 299px;
     height: 400px;
     border: 3px solid black;
     border-radius: 10px;
@@ -140,7 +141,7 @@ a {
 }
 
 .offer-img{
-    width:260px;
+    width:253px;
     margin: 22px;
 }
 
@@ -171,4 +172,3 @@ button {
 .next {
     right: 0;
 }
-/*  */
